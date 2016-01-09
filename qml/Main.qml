@@ -13,6 +13,7 @@ GameWindow {
     activeScene: splash
 
     Component.onCompleted: {
+    //fix bug collision
         splash.opacity = 1
         mainItemDelay.start()
     }
