@@ -11,7 +11,7 @@ GameWindow {
 
     property alias window: window
     activeScene: splash
-//fix bug show some button
+//fix bug show some but
     Component.onCompleted: {
     //fix bug velocity
         splash.opacity = 1
